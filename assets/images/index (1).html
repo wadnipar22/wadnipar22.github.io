@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Andes AI!</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./css/aos.min.css" rel="stylesheet">
+    <link href="./css/swiper.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.png">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <a class="navbar-brand logo-text" href="index.html">ANDES AI</a>
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre nosotros</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plans">Planes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#services">Servicios</a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="#services">Servicios</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="ai_plan.html">AI</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="data_plan.html">DATA</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="cloud_plan.html">CLOUD</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Home -->
+    <section class="home py-5 d-flex align-items-center" id="header">
+        <div class="container text-light py-5"  data-aos="fade-right"> 
+            <h1 class="headline">Creando <span class="home_text">Inteligencia Artificial</span><br> A la medida</h1>
+            <p class="para para-light py-3">Desarrollando tecnología de punta e implementando una metodología probada brindamos una alta eficiencia en los procesos de tu organización, potenciamos el uso de los datos encontrando insights invisibles y diferenciamos tu empresa en la competencia.</p>
+        <!-- end of text 
+            <div class="d-flex align-items-center">
+                <p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>
+                <p>Lorem ipsum dolor sit amet.</p>  
+            </div>
+            <div class="d-flex align-items-center">
+                <p class="p-2"><i class="fas fa-wifi fa-lg"></i></p>
+                <p>Lorem ipsum dolor sit amet.</p>  
+            </div>-->
+            <div class="my-3">
+                <a class="btn" href="#plans">Ver Planes</a>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of home -->
+
+
+    <!-- Information -->
+    <section class="information">
+        <div class="container-fluid">  
+            <div class="row text-light">
+                <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
+                    <i class="fa fa-gear fa-3x p-2"></i>
+                    <h4 class="py-3">Eficiencia Operativa</h4>
+                    <p class="para-light">Optimiza procesos y reduce tiempos de respuesta con nuestras soluciones basadas en IA, permitiendo a tu empresa operar de manera más agil.</p>
+                </div>
+                <div class="col-lg-4 text-center p-5"  data-aos="zoom-in">
+                    <i class="fas fa-coins fa-3x p-2"></i>
+                    <h4 class="py-3">Reduccion De Costos</h4>
+                    <p class="para-light">Minimiza costos operativos al automatizar tareas repetitivas y eliminar errores humanos, liberando recurso para áreas estratégicas.</p>
+                </div>
+                <div class="col-lg-4 text-center p-5 text-dark"  data-aos="zoom-in"> 
+                    <i class="far fa-lightbulb fa-3x p-2"></i>
+                    <h4 class="py-3">Decisiones Basadas En Datos </h4>
+                    <p class="para-light">Impulsa la toma de decisiones con datos preciso y análisis predictivo, brindando a tu empresa una ventaja competitiva en el mercado.</p>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of information -->
+    
+
+    <!-- About -->
+    <section class="about d-flex align-items-center text-light py-5" id="about">
+        <div class="container" >
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <p>Nosotros</p>
+                    <h1>Innovamos con inteligencia artificial,  <br> transformamos el futuro con software.</h1>
+                    <p class="py-2 para-light">En ANDES AI, estamos dedicados a la creación de soluciones basadas en inteligencia artificial y desarrollo de software. Nos enfocamos en transformar ideas en realidades tecnológicas que impulsan el crecimiento y la eficiencia en diversos sectores.</p>
+                    <p class="py-2 para-light">
+                        Nuestro equipo combina experiencia técnica y creatividad para ofrecer productos y servicios innovadores que resuelven los desafíos de hoy y anticipan las necesidades del mañana.</p>
+<!--
+                    <div class="my-3">
+                        <a class="btn" href="#your-link">Learn More</a>
+                    </div>-->
+                </div>
+                <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
+                    <img class="img-fluid" src="./assets/images/about.jpg" alt="about" >
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of about -->
+
+<!-- Plans -->
+<section class="plans d-flex align-items-center py-5" id="plans">
+    <div class="container text-light" >
+        <div class="text-center pb-4">
+            <p>SERVICIOS</p>
+            <h2 class="py-2">Innovación, Datos, Escalabilidad</h2>
+            <p class="para-light">Potenciamos tu negocio con soluciones tecnológicas de última generación. Desde inteligencia artificial hasta el análisis de datos y servicios en la nube, ofrecemos un enfoque integral para transformar digitalmente tu empresa.</p>
+        </div>
+        <div class="row gy-4" data-aos="zoom-in">
+            <div class="col-lg-4">
+                <div class="card bg-transparent px-4">
+                    <h4 class="py-2">INTELIGENCIA ARTIFICIAL</h4>
+                    <p class="py-3">Impulsa tu negocio con inteligencia artificial avanzada.</p>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Modelos generativos de IA que crean imágenes y textos como un humano.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Procesamiento del lenguaje natural (PNL) y modelos de lenguaje grandes (LLMs).</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Implementación de soluciones de Computer Vision para analizar imágenes con precisión humana.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Diversas capacidades de Machine Learning para decisiones autónomas en tiempo real.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Despliegue de modelos de IA y ML en infraestructuras cloud.</p>
+                    </div>
+                    <div class="my-3">
+                        <a class="btn" href="ai_plan.html" >Conoce más</a>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card bg-transparent px-4">
+                    <h4 class="py-2">ANALISIS DE DATOS</h4>
+                    <p class="py-3">Transforma tus datos en conocimiento estratégico.</p>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Gestión integral de Data Warehouses a Data Lake Houses.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Análisis en tiempo real y por lotes de grandes volúmenes de datos.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Visualización de datos práctica y accesible para la toma de decisiones.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Paradigma DataOps para la evolución continua de plataformas de datos.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Gobierno de datos para garantizar fiabilidad, integridad y cumplimiento normativo.</p>
+                    </div>
+                    <div class="my-3">
+                        <a class="btn" href="data_plan.html" >Conoce más</a>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card bg-transparent px-4" >
+                    <h4 class="py-2">CLOUD</h4>
+                    <p class="py-3">Construye, escala y optimiza en la nube.</p>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Infraestructura sólida y escalable para soluciones en la nube.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Patrones de diseño versátiles para IaaS, PaaS, SaaS y Kubernetes (K8s).</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Alta disponibilidad y recuperación ante desastres para garantizar la continuidad del negocio.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Sinergia Edge-to-Cloud para mejorar rendimiento y seguridad.</p>
+                    </div>
+                    <div class="block d-flex align-items-center">
+                        <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                        <p>Estrategias de despliegue en la nube rentables y eficientes.</p>
+                    </div>
+                    <div class="my-3">
+                        <a class="btn" href="cloud_plan.html" >Conoce más</a>                    
+                    </div>
+                </div>  
+            </div>
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</section> <!-- end of plans -->
+
+
+
+
+    <!-- Services -->
+    <section class="services d-flex align-items-center py-5" id="services">
+        <div class="container text-light">
+            <div class="text-center pb-4" >
+                <p>PROYECTOS</p> 
+                <h2 class="py-2">Innovación, Soluciones, Resultados</h2>
+                <p class="para-light">Proyectos desarrollados con tecnología de punta para transformar industrias, optimizar procesos y potenciar el crecimiento de nuestros clientes.</p>
+            </div>
+            <div class="row gy-4 py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-cloud fa-2x"></i>
+                        <h4 class="py-2">MIGRACIÓN A NUBE HÍBRIDA</h4>
+                        <p class="para-light">
+                            Implementamos una infraestructura híbrida utilizando Kubernetes y PaaS para asegurar escalabilidad y flexibilidad. El proyecto redujo los costos operativos en un 30% y mejoró la eficiencia en la gestión de picos de demanda.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-server fa-2x"></i>
+                        <h4 class="py-2">SOLUCIONES EDGE-TO-CLOUD</h4>
+                        <p class="para-light">Desarrollamos una arquitectura edge-to-cloud que permite procesar datos localmente y sincronizarlos en la nube. Esto mejoró la seguridad y redujo los tiempos de procesamiento en un 20% en aplicaciones de visión por computadora.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-database fa-2x"></i>
+                        <h4 class="py-2">DATA LAKE HOUSE</h4>
+                        <p class="para-light">Diseñamos una solución de Data Lake House que unifica datos en tiempo real y por lotes, mejorando la accesibilidad y la toma de decisiones. El proyecto facilitó análisis avanzados y optimizó la cadena de suministro.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-bug fa-2x"></i>
+                        <h4 class="py-2">GOBIERNO DE DATOS</h4>
+                        <p class="para-light">Creamos un marco de gobierno de datos que garantizó la calidad, integridad y seguridad de la información crítica. Esto permitió a la empresa cumplir con normativas y reducir riesgos operativos.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-store fa-2x"></i>
+                        <h4 class="py-2">IA PARA MARKETING</h4>
+                        <p class="para-light">Desarrollamos un sistema basado en IA generativa para crear contenido personalizado en campañas de marketing digital. Este proyecto incrementó el engagement de los usuarios en un 25% y mejoró la conversión en línea.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-tv fa-2x"></i>
+                        <h4 class="py-2">COMPUTER VISION PARA SEGURIDAD</h4>
+                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    </div>                    
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of services -->
+
+
+    
+    <!-- Work 
+   
+         <section class="work d-flex align-items-center py-5" >
+        <div class="container-fluid text-light">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
+                    <img class="img-fluid" src="./assets/images/work.jpg" alt="work">        
+                </div>
+                <div class="col-lg-5 d-flex align-items-center px-4 py-3" data-aos="">
+                    <div class="row">
+                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                            <p>OUR WORK</p>
+                            <h2 class="py-2">Explore unlimited possibilities</h2>
+                            <p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
+                        </div>
+                        <div class="container" data-aos="fade-up">
+                            <div class="row g-5">
+                                <div class="col-6 text-start" >
+                                    <i class="fas fa-briefcase fa-2x text-start"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1258" data-purecounter-duration="3">1</h2>
+                                    <p>PROJECTS COMPLETED</p>
+                                </div>
+                                <div class="col-6" >
+                                    <i class="fas fa-award fa-2x"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="3">1</h2>
+                                    <p>AWARDS</p>
+                                </div>
+                                <div class="col-6">
+                                    <i class="fas fa-users fa-2x"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1255" data-purecounter-duration="3">1</h2>
+                                    <p>CUSTOMER ACTIVE</p>
+                                </div>
+                                <div class="col-6">
+                                    <i class="fas fa-clock fa-2x"></i>
+                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1157" data-purecounter-duration="3">1</h2>
+                                    <p>GOOD REVIEWS</p>
+                                </div>
+                            </div>-->
+                     <!--   </div> end of container-->
+                <!--    </div> end of row -->
+             <!--   </div>  end of col-lg-5 -->
+         <!--   </div> end of row -->
+      <!--  </div>  end of container -->
+  <!--  </section>  end of work --> 
+
+
+
+    <!--Company Testimonials-->
+    <!-- Testimonials -->
+<div class="slider-1 testimonial text-light d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="text-center w-lg-75 m-auto pb-4">
+                
+                
+                <p class="para-light">Nos sentimos orgullosos de haber colaborado con una variedad de empresas en distintos sectores. Estas son algunas de las organizaciones que han confiado en nosotros.</p>
+            </div>
+        </div> <!-- end of row -->
+        <div class="row p-2" data-aos="zoom-in">
+            <div class="col-lg-12">
+
+                <!-- Card Slider -->
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card p-4">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="company-logo" src="images/pepsi_logo.png" alt="company logo 1" style="width: 150px; height: 125px;">
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card p-4">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="company-logo" src="images/avianca_logo.png" alt="company logo 2" style="width: 150px; height: 125px;">
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card p-4">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="company-logo" src="images/servientrega_logo.svg" alt="company logo 3" style="width: 150px; height: 125px;">
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card p-4">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="company-logo" src="images/akt_logo.png" alt="company logo 4" style="width: 150px; height: 125px;">
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                        </div> <!-- end of swiper-wrapper -->
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- end of add arrows -->
+
+                    </div> <!-- end of swiper-container -->
+                </div> <!-- end of slider-container -->
+                <!-- end of card slider -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of testimonials -->
+
+
+    
+ <!--
+
+    Newsletter 
+    <section class="newsletter text-light py-5">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
+                    <h4 class="py-1">Subscribe to our Newsletter</h4>
+                    <p class="para-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deleniti nobis amet accusamus debitis facilis quibusdam officia laborum nesciunt. Nihil.</p>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                    <div class="input-group my-3">
+                        <input type="text" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
+                        <button class="btn-secondary text-light" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div> end of row 
+        </div> end of container 
+    </section>  end of newsletter 
+
+-->
+    <!-- Contact -->
+    <section class="contact d-flex align-items-center py-5" id="contact">
+        <div class="container-fluid text-light">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
+                    <div style="width:90%">
+                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                            <p>CONTACTO</p>
+                            <h2 class="py-2">Envíanos tu consulta</h2>
+                            <p class="para-light">Si tienes deseas contratar un servicio o tienes alguna duda, no dudes en contactarnos. Estamos aquí para ayudarte a obtener el maximo potencial de proyecto.</p>
+                        </div>
+                        <div>
+                            <div class="row" >
+                                <div class="col-lg-6">
+                                    <div class="form-group py-2">
+                                        <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
+                                    </div>                                
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group py-2">
+                                        <input type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Ingresa tu numero de celular">
+                                    </div>                                 
+                                </div>
+                            </div>
+                            <div class="form-group py-1">
+                                <input type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Ingresa tu E-Mail">
+                            </div>  
+                            <div class="form-group py-2">
+                                <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje"></textarea>
+                            </div>                            
+                        </div>
+                        <div class="my-3">
+                            <a class="btn form-control-submit-button" href="#your-link">Submit</a>
+                        </div>
+                    </div> <!-- end of div -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                    <img class="img-fluid d-none d-lg-block" src="./assets/images/contact.jpg" alt="contact">        
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of contact -->
+
+
+    <!-- Contact -->
+<section class="contact d-flex align-items-center py-5" id="contact">
+    <div class="container-fluid text-light">
+        <div class="row">
+            <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
+                <div style="width:90%">
+                    <div class="text-center text-lg-start py-4 pt-lg-0">
+                        <p>CONTACTO</p>
+                        <h2 class="py-2">Envíanos tu consulta</h2>
+                        <p class="para-light">Si tienes deseas contratar un servicio o tienes alguna duda, no dudes en contactarnos. Estamos aquí para ayudarte a obtener el máximo potencial de tu proyecto.</p>
+                    </div>
+
+                    <!-- Inicio del formulario -->
+                    <form action="save.php" method="POST">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group py-2">
+                                    <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Ingresa tu nombre" name="nombre" required>
+                                </div>                                
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group py-2">
+                                    <input type="text" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Ingresa tu número de celular" name="celular" required>
+                                </div>                                 
+                            </div>
+                        </div>
+                        <div class="form-group py-1">
+                            <input type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Ingresa tu E-Mail" name="email" required>
+                        </div>  
+                        <div class="form-group py-2">
+                            <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Mensaje" name="mensaje" required></textarea>
+                        </div>                            
+
+                        <!-- Botón de envío -->
+                        <div class="my-3">
+                            <button type="submit" class="btn form-control-submit-button">Enviar</button>
+                        </div>
+                    </form>
+                    <!-- Fin del formulario -->
+
+                </div> <!-- end of div -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                <img class="img-fluid d-none d-lg-block" src="./assets/images/contact.jpg" alt="contact">        
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</section> <!-- end of contact -->
+
+
+
+    <!-- Location -->
+    <section class="location text-light py-5">
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <div class="p-2"><i class="far fa-map fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>UBICACION</h6>
+                        <p>Calle 89#25-18 Diamante II</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="fab fa-whatsapp fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>LLAMANOS!</h6>
+                        <p>(320) 647 5879 </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>Envíanos un mensaje</h6>
+                        <p>jjalfredo68@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>HORARIO</h6>
+                        <p>07:30 AM - 18:00 PM</p>
+                    </div>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of location -->
+
+
+    <!-- Footer -->
+    <section class="footer text-light">
+        <div class="container">
+            <div class="row" data-aos="fade-right">
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4 class="">Andes AI</h4>
+                    </div>
+                    <p class="py-3 para-light">Andes AI es una compañía de tecnología que desarrolla soluciones de inteligencia artificial a medida, transformando datos en información valiosa para optimizar procesos y mejorar la eficiencia y competitividad de las organizaciones.</p>
+                    <div class="d-flex">
+                        <div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-facebook-f fa-2x py-2"></i>
+                            </a>
+                        </div>
+                        <div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-twitter fa-2x py-2"></i>
+                            </a>
+                        </div>
+                        <div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-instagram fa-2x py-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Links rapidos</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#about"><p class="ms-3">Sobre Nosotros</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#services"><p class="ms-3">Servicios</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#plans"><p class="ms-3">Planes</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#contact"><p class="ms-3">Contacto</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Links utiles</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="privacy.html"><p class="ms-3">Politica de privacidad</p></a>
+                            
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="terms.html"><p class="ms-3">Terminos y condiciones</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#your-link"><p class="ms-3">Disclaimer</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="faq.html"><p class="ms-3">FAQ</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4>Boletín</h4>
+                    </div>
+                    <p class="py-3 para-light">Recibe las últimas actualizaciones sobre IA y nuestros servicios</p>
+                    <div class="d-flex align-items-center">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control p-2" placeholder="Tu Correo electronico" aria-label="Recipient's email">
+                            <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of footer -->
+
+
+    <!-- Bottom -->
+    <div class="bottom py-2 text-light" >
+        <div class="container d-flex justify-content-between">
+            <div>
+                <p>Copyright © Andes AI</p><br>
+                <p>Distributed by: <a href="https://themewagon.com/">Themewagon</a></p>
+            </div>
+            <div>
+                <i class="fab fa-cc-visa fa-lg p-1"></i>
+                <i class="fab fa-cc-mastercard fa-lg p-1"></i>
+                <i class="fab fa-cc-paypal fa-lg p-1"></i>
+                <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>
+            </div>
+        </div> <!-- end of container -->
+    </div> <!-- end of bottom -->
+ 
+    
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="assets/images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+
+    
+<!-- Botón de chat -->
+<button id="chatButton" class="chat-btn" onclick="openChat()">Chat</button>
+
+<!-- Contenedor del chat -->
+<div id="chatWindow" class="chat-window">
+    <div class="chat-header">
+        <h3>Soporte</h3>
+        <button onclick="closeChat()" class="close-chat">&times;</button>
+    </div>
+    <div class="chat-body">
+        <p>Hola, ¿en qué podemos ayudarte?</p>
+        <div id="chatMessages"></div> <!-- Aquí se mostrarán los mensajes -->
+    </div>
+    <div class="chat-footer">
+        <input type="text" id="chatInput" placeholder="Escribe un mensaje..." />
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+</div>
+
+
+    <!-- Scripts -->
+    
+    <script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+    <script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+    <script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
+    <script src="./js/script.js"></script>  <!-- Custom scripts -->
+</body>
+</html>  
