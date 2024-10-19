@@ -116,7 +116,7 @@ li {
 {
 	padding: 15px 0;
 	background-color: #ffffff;
-    background-image: linear-gradient(to right, #1a1a1a, #494949);
+    background-image: linear-gradient(to right, #ffffff, #f1a500);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
